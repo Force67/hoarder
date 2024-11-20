@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "turbo --no-daemon build",
-    "buildonly": "turbo --no-daemon build --parallel --filter @hoarder/web --filter @hoarder/workers",
+    "buildonly": "turbo --no-daemon build --filter @hoarder/web --filter @hoarder/workers",
     "dev": "turbo --no-daemon dev --parallel",
     "clean": "git clean -xdf node_modules",
     "clean:workspaces": "turbo --no-daemon clean",
